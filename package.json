@@ -1,0 +1,29 @@
+{
+  "name": "globulon",
+  "version": "0.0.1",
+  "keywords": [
+    "glob",
+    "command line",
+    "cli",
+    "windows"
+  ],
+  "description": "Command line Glob for Windows",
+  "author": "Michael G",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "concat-cli": "^4.0.0",
+    "glob": "^7.1.2",
+    "lodash": "^4.17.4",
+    "node-async-loop": "^1.2.2"
+  },
+  "bin": {
+    "globulon": "index.js"
+  },
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/grabbeh/globulon"
+  }
+}
